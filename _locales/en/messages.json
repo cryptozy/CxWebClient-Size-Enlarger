@@ -1,0 +1,10 @@
+{
+   "appDesc": {
+      "description": "App description.",
+      "message": "Changes the CxWebClient size"
+   },
+   "appName": {
+      "description": "App name.",
+      "message": "CxWebClient Size Enlarger"
+   }
+}

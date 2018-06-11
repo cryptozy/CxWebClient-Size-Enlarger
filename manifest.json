@@ -1,0 +1,34 @@
+{
+  "manifest_version": 2,
+  "name": "CxWebClient Size Enlarger",
+  "default_locale": "en",
+  "manifest_version": 2,
+  "version": "1.0.2",
+  "description": "Change Specific Div in CxWebClient to be set to a human readable size",
+
+  "background": {
+    "scripts": ["background.js"]
+  },
+  
+  "permissions": [
+    "contextMenus"
+   ],
+
+  "icons": {
+    "128": "cbaat-4zak9-1.png",
+    "64": "cbaat-4zak9-0.png",
+	"32": "cbaat-4zak9-0.png",
+	"24": "cbaat-4zak9-0.png",
+	"16": "cbaat-4zak9-0.png"
+   },
+   
+   "content_scripts": [{
+    "js": ["replacer.js"],
+    "matches": ["*://*/CxWebClient/ProjectState.aspx"]
+   }]
+ 
+ 
+ 
+}
+
+
